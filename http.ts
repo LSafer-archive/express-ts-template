@@ -1,9 +1,7 @@
+require('dotenv').config()
 import http from 'http';
-import dotenv from 'dotenv'
 import debug from "debug";
 import app from './src/app'
-
-dotenv.config()
 
 const PORT = process.env.PORT
 
